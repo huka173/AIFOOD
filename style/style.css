@@ -14,6 +14,7 @@ body {
 }
 
 .btn-help {
+    text-align: center;
     font-family: MarkoOne-Regular, serif;
     font-size: 40px;
     color: #355C7D;
@@ -27,6 +28,7 @@ body {
 }
 
 .btn-attention {
+    text-align: center;
     font-family: MarkoOne-Regular, serif;
     font-size: 40px;
     color: #355C7D;
