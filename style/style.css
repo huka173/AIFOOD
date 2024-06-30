@@ -1,0 +1,50 @@
+body {
+    background-color: #BAD7DF;
+    margin: 0;
+    width: 100%;
+}
+
+.header-btn {
+    margin-bottom: 50%;
+    padding-top: 35px;
+    padding-left: 54px;
+    padding-right: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-help {
+    font-family: KumbhSans-Bold, sans-serif;
+    font-size: 64px;
+    color: #355C7D;
+    width: 70px;
+    height: 88px;
+}
+
+.btn-attention {
+    font-family: KumbhSans-Bold, sans-serif;
+    font-size: 64px;
+    color: #355C7D;
+    width: 70px;
+    height: 88px;
+}
+
+.main-upload {
+    background-image: url("../img/Vectors.svg");
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-form {
+    font-size: 64px;
+    font-family: KumbhSans-Bold, sans-serif;
+    color: #355C7D;
+}
+
+@font-face {
+    font-family: KumbhSans;
+    src: url("../fonts/KumbhSans-bold.ttf");
+}
