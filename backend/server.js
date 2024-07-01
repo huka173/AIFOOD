@@ -12,5 +12,5 @@ app.use(getRouters);
 app.use(uploadRouters);
 
 app.listen(PORT, () => {
-    console.log('server start ' + Date.now());
+    console.log('server start ' + new Date());
 });

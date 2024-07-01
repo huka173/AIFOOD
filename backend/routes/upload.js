@@ -30,7 +30,7 @@ router.post('/upload', upload, (req, res) => {
     } 
     else {
         console.log('Error');
-        res.status(500).json({ message: 'Error photo upload' + Date.now()});
+        res.status(500).json({ message: 'Error photo upload' + new Date()});
     }
 });
 
