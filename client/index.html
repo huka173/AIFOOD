@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/logo.svg" />
+    <title>AIFOOD</title>
+</head>
+<body>
+    <header class="header-btn">
+        <button class="btn-help">?</button>
+        <button class="btn-attention">!</button>
+    </header>
+    <main class="main-upload">
+        <form class="main-form" action="/upload" method="post" enctype="multipart/form-data">
+            <label class="form-img" id="form-img">  
+                <img src="img/Plus.svg" class="img-plus" id="img-plus">
+                <input type="file" class="img" alt="" accept="image/png, image/jpeg" for="form-img" name="photo">
+                <div id="uploaded-image"></div>
+                <span class="text-img">attach a photo</span>
+            </label>
+            <button type="submit" class="sub-btn">upload image</button>
+        </form>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
