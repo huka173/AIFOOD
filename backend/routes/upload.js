@@ -26,10 +26,12 @@ const upload = multer({ storage: storage, fileFilter: (req, file, cb) => {
 router.post('/upload', upload, (req, res) => {
     if(req.file) {
         console.log('Photo upload ' + req.file.filename);
+        console.log('Time: ' + new Date());
         res.json({ message: req.file.filename });
     } 
     else {
         console.log('Error');
+        console.log('Time: ' + new Date());
         res.status(500).json({ message: 'Error photo upload' + new Date()});
     }
 });
