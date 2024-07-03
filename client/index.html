@@ -8,9 +8,9 @@
     <title>AIFOOD</title>
 </head>
 <body>
-    <header class="header-btn">
-        <button class="btn-help">?</button>
-        <button class="btn-attention">!</button>
+    <header class="header-btn" id="header">
+        <a class="btn-help" href="#popup-help">?</a>
+        <a class="btn-attention" href="#popup-attention">!</a>
     </header>
     <main class="main-upload">
         <form class="main-form" action="/upload" method="post" enctype="multipart/form-data">
@@ -23,6 +23,34 @@
             <button type="submit" class="sub-btn">upload image</button>
         </form>
     </main>
+    <div class="popup" id="popup-help">
+        <a href="#header" class="popup-area"></a>
+        <div class="popup-body">
+            <div class="popup-content">
+                <div class="popup-title">
+                    How to use
+                </div>
+                <div class="popup-text">
+                    <span class="list-text">Click on the "+" button where it says "attach a photo"</span>
+                    <span class="list-text">Select a food photo from the gallery</span>
+                    <span class="list-text">Press the button "upload image"</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup-attention">
+        <a href="#header" class="popup-area"></a>
+        <div class="popup-body">
+            <div class="popup-content">
+                <div class="popup-title">
+                    Developers
+                </div>
+                <div class="popup-text">
+                    <span class="text-who">This application was made by:<br>Huka and Defaultwww</span>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
