@@ -15,6 +15,7 @@ form.addEventListener('submit', async (event) => {
         if(response.ok) {
             const data = await response.json();
             const filename = data.message; 
+            const prediction = data.prediction;
 
             const img = document.createElement('img');
             const plus = document.getElementById('img-plus');
@@ -27,6 +28,14 @@ form.addEventListener('submit', async (event) => {
 
             uploadedImage.innerHTML = ''; 
             uploadedImage.appendChild(img);
+
+            const predictionElement = document.createElement('p');
+            predictionElement.textContent = `Prediction: ${prediction}`;
+            predictionElement.style.fontFamily = 'KumbhSans-ExtraBold, sans-serif';
+            predictionElement.style.color = '#355C7D';
+            predictionElement.style.fontSize = '20px';
+
+            uploadedImage.appendChild(predictionElement);
         } 
         else {
             console.error('Error', response.status);

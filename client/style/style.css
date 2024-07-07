@@ -224,6 +224,13 @@ body {
     color: #99DDCC;
 }
 
+.uploaded-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @font-face {
     font-family: KumbhSans-ExtraBold;
     src: url("../fonts/KumbhSans-ExtraBold.ttf");
