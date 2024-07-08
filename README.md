@@ -1,4 +1,4 @@
-![image](https://github.com/huka173/AIFOOD/assets/79628079/a4807588-dd49-4299-941e-bc4767593bac)# AIFOOD
+# AIFOOD
 
 This is an online application for identifying food by photo.\
 This site works on this link: http://45.93.200.192:3000 \
