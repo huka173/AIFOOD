@@ -1,7 +1,7 @@
 # AIFOOD
 
 This is an online application for identifying food by photo.\
-This site works on this link: http://45.93.200.192:3000 \
+This site works on this link: no longer there :( \
 P.S. If we pay for hosting :)
 ## Tech
 - NodeJS(Express.js)
